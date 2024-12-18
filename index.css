@@ -1,6 +1,9 @@
 /*  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -184,6 +187,65 @@ body{
    font-weight: bolder;
    font-size: 14px;
  }
+
+ .paragraph{
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1988d3;
+  border-bottom: 1px solid  #2f3336;
+
+ }
+ .otherposts{
+  display: flex;
+  align-items: center;
+
+ }
+ .forbes img{
+  border-radius: 50% ;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px ;
+  margin-top: 7px;
+  margin-left: 15px;
+ }
+ .name{
+  position: relative;
+  height: 30px;
+ 
+ }
+ .name .user{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+ 
+ }
+ .name p1{
+  display: flex;
+ 
+  
+ }
+ p1 img{
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+
+ }
+ p1 i{
+  padding-left: 350px;
+  
+ }
+ p2{
+  color: white;
+  
+ }
+
+
+ 
+
 
  
 
