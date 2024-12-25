@@ -10,9 +10,9 @@
     <title>Twitter Clone Virtual Project</title>
 </head>
 <body>
-    <div class="container">
-        <div class="main">
-        <div class="category">
+ <div class="container">
+       <div class="page">
+           <div class="category">
            <span class="logo"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M26.37,26l-8.795,-12.822l0.015,0.012l7.93,-9.19h-2.65l-6.46,7.48l-5.13,-7.48h-6.95l8.211,11.971l-0.001,-0.001l-8.66,10.03h2.65l7.182,-8.322l5.708,8.322zM10.23,6l12.34,18h-2.1l-12.35,-18z"></path></g></g>
             </svg> logo</span>
            
@@ -48,10 +48,10 @@
                 <i class="material-icons">
                     more_horiz
                     </i>
-            </div>
+             </div>
            </div>
            
-       
+           <div class="main">
                <div class="content">
                  <div class="navbar">
                      <span class="">For you</span>
@@ -84,19 +84,43 @@
                            <p1><span1 class="user">Forbes</span1> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABSklEQVR4nN2VS07DQAxAU64AAoHGYsui7LhRz1DEZ8EtkGJnw64coLlDuEXJAhVI7aYHGOSkoEaZRDNViwSWvJk4z9/xRNH/lQd7ACT3QJIDcgHEqUEeqQLytD6TXG3UNphvkMdAYn3UEF8Hwc+eloeAUvo6AJLVyePq2At+GpdHhvg5AG6rLJAn+m832dpBVZawyG1DUUplKKvFXzfU7khvXQ7y8LLIEpAzx7dZ20E9dv5w4rlJimEdHL80S8Wfjgw43QZukmJYZdKw4bTloLpAzsZxtglowYnnjoka+TlAzjZBPvBOB64SaeQNoAd8Hdi0nQHJosP43cSLy2+787i8MMhv/X3ij6AxNRptIleqvZH3j6nc7fWiRfteFY1lhzzZ/bL7rXW91YODPI6CxdoBkNwAyqvuFp3tnydT74yekczUprfmf16+AJCxUuMKPth7AAAAAElFTkSuQmCC" alt="verified-account"><span>@Forbes • 2h</span> <i class="material-icons" style="color:#787a7a;">
                             more_horiz
                              </i></p1>
-                            <p2>The best Rating of the year</p2>
-                            <img src="https://pbs.twimg.com/media/Gfp6eOtWwAA847r?format=jpg&name=small" alt="">
-                        </div>
+                           <div class="p2"><p2>What is your budget for 2025?</p2></div>
+                           <div class="postimage"><img src="https://pbs.twimg.com/media/Gfp6eOtWwAA847r?format=jpg&name=small" alt=""></div>
+                         
+                               <div class="actions">
+                                 <div class="sub-action">
+                                <div> <img src="data:image/png;base64,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" alt="speech-bubble--v1" width="20px" height="20px"> 
+                                    <span>45K</span></div>
+                                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAzElEQVR4nN1SsQ3CQAxMww6pqZmDtCAEBfnP2y/7iywBE9BnhWwBBYPQs0GkoCMCJUCSEoElS2/ZPr/vHEX/Y8b7WQhhgnfKsrEs5UcnOTiXx51mS5JY1sqSFogzlmUfgGG9GJLjs3nLPDWkV8ta392JDv9UUgx7mS4lmg3J2ZDshgAshTVq3xOsNZJjXH0XwLLusWbDl5SZD/N2sgJBgwBO9EE2iIcAUQvgBIl65XNh0aygRSO5JB105/IYR9IL4HWFOhwbjm6Mqx+yGy9NjuSJi5FlAAAAAElFTkSuQmCC" alt="retweet" width="20px" height="20px"> 
+                                   <span>34K</span></div>
+                                <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABu0lEQVR4nNVTO0tcURC+qBi1EItESCEoWqi/wC5gUKKdxVXknrl3Zs/MWRG2MCGkCblJr43YWYj6C3ykyi/QxkLsBR+/wFfhi9l73fWuuzGLafxg4HC+mW/mzJzxvFcHY20foMwakjlAO+77fvMDp2e9SziZDUPXW1MojuMGQ7JgkG+A5K5kKIcGeTiI3Ec9ZziSa4M8r7FPK0P+pU4GZScknggiHjLI3w3yuUG+UgPiCyD5oZz6APFuKvwzIxZFUYchuQSU/UKh8CbLuX5AOTLExwHlByviWgD5QBMFQaG9RIQ5N5o8jz9XawdYO1ApVuLIfUleZkfKgiRjehmi5L06ATmeKQpG7lO5f2amM2mwbNUraEh+aywRvctmQlnVCes0/1kM7QiQ3ALKylOSuUcnCign0869fU5MKwLkU42Jonx3jfItJQ3mP5XTrpyu+hR9icO/ZgaUpfQ/bj3ekuy28HYiJovPvSTZGJT19Btt+P5c6wPnnGsD4s20srWqG1INvu83liol2UPErsC59+XN4OUPcdzk1QuD/C2d4lHR9Jzjr95LAGingORMLSCe9P4HAsoP1lq914d7a+/mKGPnj0EAAAAASUVORK5CYII=" alt="filled-like" width="20px" height="20px">
+                                    <span>2.2M</span></div>
+                                  <div> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAoElEQVR4nM2SQQrCQAxFexpxre5d6BVc2JmYpPzJOTxPr+b0DJWIbhxrtYg08CH8H16ySFXNpmKDECV1pKl/p9uMWF0CJHVBbDW2iBnrqMhFQJr6F94+sO0+ma0GAGfXVwBmW0bFaTKAxA6kaH8OIDH266YDFK1nfwAQFkFxvHtbl/fueTYIiIrsT1IEz4sa25DgUgZitUNGX1mRHxfOo67RdZfOjY5B4gAAAABJRU5ErkJggg==" alt="poll-vertical" width="20px" height="20px"> 
+                                      <span>1M</span></div>
+                                    </div>
+                                         <div class="bookmarks">
+                                            <div > <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC8klEQVR4nO2ZMW7UQBiFpwC6cIIgBS5CARUEUsA2eIZ/xvntiIIzhD4VZwIKwhko6JAIiAuQoLESFAG7O7ZnE8/z+6RfShFZ8/ntPFtjYwghhBBCCCGEEEIIIYQQUgJ1XW/ZoC3y1HW9ZUpB5GDHheYMeUQOdkwpMJCJwUAmBgOZGAykoEBs0C/ON59LGBvXiv5QL0lEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATEA0ZEQDxgRATE48pFvPd34uS+LgMZQFU3T23Qkzjxb5MRBtKD+4eHN1xo3livvy7twFPn9e1isbhlMsBAEon15IJ+WFaL1uunFyHcMyNhIAlYv//E+ub7sjD+jNefL4M+NyNgIP0rat2MqjAGsqKibGje9wjinwqzqndNTxjIf3BBd5MqKqHCbN08Mz1gIJdo2/amC3rU1c76HfAuTlKFBT2K1zYJMJBzKtXtxIrqnhHxBvd7xuhxSoUxEHNeUUFP1u6K+D9+/9HfN7GS9oHzzdccFTbrQPr+wmXFDel2WGqFrXgLm20gQyrKrCFHhc0yEBeahykVY7uzqvZx37WMuf6sAtnEQ3gZQ3fgbALJ1fF96PMDsL75GNc5i0BsaF85r99SKsQF3c29ttS3uLjGbq3ogaSNjqqojBV2NvdATnN+z9jAYeWMAslwXD6EoWdl0IEMPY3NxZDTZNRArqyiclcYXiDXVFG5vkhCBZLrm/emWPfNHimQyVTU2AoDCER/OK97pjCc171u7ViB6PGUK2rIW1ipgRRTUX0rrLhAhh6XT52L4/yiAqmq17fjeZEBpVLdjo7XvQ5CCCGEEEIIIYQQQsw18hu9Seh7u7ZYEwAAAABJRU5ErkJggg==" alt="bookmark-ribbon--v1" class="bookmarks" width="25px" height="25px"></div>
+                                    
+                                           <div > <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJUlEQVR4nO2XQUoDQRBFK+Ad9ByKuPQCOYAwXXRVpjoL9+IyW3WVc3gWL5ADmLgRPUGUnumgILiwdCaN/0FBzWK6/6ObYYoIAAAAAAD8CRdte5iLaqSRdBo0veTKPdVEI/PjIOmZNb11JfYadH5GVYbXiiSacm360Hb/IdD3e3+dWGy9C3y+WBzsBPq+CEl6pH2FxW5ZbZkDd89FIPdFYsmabqgW+JNAlTAERgYnQP/9BGK8PPL8jHkFonN/YklPQW0zlgA79/cHGPl9+oUA21xj7U/eBYKkO8+vA48t4IUhoPWfwLYsMKHhmRSBH38EKGhadYvM7CpGOxmygth1meJWDoFWv8y2A1eYmZAHVpvmcTBoehiyuBtBbeoKDwAAAABA3/IOohWB+yceVsAAAAAASUVORK5CYII=" alt="external-upload-user-interface-tanah-basah-detailed-outline-tanah-basah" width="25px" height="27px" class="downloads" ></div>
+                                          </div>
+                                  </div>        
+                              </div> 
+                           
+                    
+                      <div>
                     
                      
                   </div>
 
               </div>
-             <div> 
+           </div>
+         
+            <div> 
         <p>fueuhiwjfifheufheufhoueh</p>
        csjfijaeifojeogrogrjipg
-    </div>
- </div>
+            </div>
+     </div>
+</div>
     
 </body>
 </html>
