@@ -199,9 +199,9 @@ body{
  }
  .otherposts{
   display: flex;
-  align-items: center;
-
  }
+
+
  .forbes img{
   border-radius: 50% ;
   width: 40px;
@@ -210,12 +210,14 @@ body{
   margin-top: 7px;
   margin-left: 15px;
  }
- .name{
-  position: relative;
-  height: 30px;
- 
+  
+ .description{
+  display: flex;
+  flex-direction: column;
  }
- .name .user{
+
+ 
+ .user{
   color: white;
   font-size: 15px;
   text-transform: uppercase;
@@ -223,11 +225,11 @@ body{
   text-align: center;
  
  }
- .name p1{
-  display: flex;
  
-  
+ .description p1{
+  display: flex;
  }
+ /*
  p1 img{
   width: 16px;
   height: 16px;
@@ -243,7 +245,7 @@ body{
   
  }
 
-
+*/
  
 
 
